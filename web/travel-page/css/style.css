@@ -1,0 +1,298 @@
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'PTSerif-Regular';
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'QuiteChocolatey';
+    src: url('../fonts/QuiteChocolatey.ttf');
+}
+
+@font-face {
+    font-family: 'couture-bld';
+    src: url(../fonts/couture-bld.otf);
+}
+
+body {
+    background: #ffffff;
+}
+
+p {
+    font-size: 16px;
+    color: #cdcdcd;
+}
+nav{
+    height: 100px;
+}
+nav .container{
+    margin-top: 30px;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-brand{
+    font-family: 'QuiteChocolatey';
+    font-size: 80px;
+    color: #d03958;
+}
+.navbar-inverse .navbar-brand{
+    color: #d03958;
+}
+nav ul{
+    font-family: 'Montserrat-Regular';
+    height: 50px;
+}
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.jumbotron {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #1b1b1b;
+    text-align: left;
+    /*height: 678px;*/
+    margin-bottom: 0px;
+}
+.textline{
+    color: #1b1b1b;
+    font-size: 15px;
+    font-family: 'PTSerif-Regular';
+}
+.page-header{
+    
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Montserrat-Bold';
+}
+.page-header span{
+    color: #d03958;
+}
+.jumbotron h1{
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    margin-top: 0px;
+}
+.jumbotron p {
+    color: #1b1b1b;
+    font-size: 15px;
+    font-family: 'PTSerif-Regular';
+}
+.navbar-inverse {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*
+    background-color: transparent;
+    */
+    border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #1b1b1b;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 20px;
+    line-height: 0.3em;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    color: #ffffff;
+    background: #d03958;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #e3d5b8;
+    border-color: white;
+    margin-bottom: 5px;
+}
+.btn-primary:hover {
+    color: #1b1b1b;
+    background-color: white;
+    border-color: white;
+}
+.glyphicon-large {
+    font-size: 100px;
+}
+.services {
+    text-align: center;
+    background-color: #ffffff;
+}
+.services .title{
+    font-family: 'couture-bld';
+    color: #1b1b1b;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.services .title span{
+    color: #d03958;
+}
+.services p {
+    margin-bottom: 30px;
+    font-family: 'PTSerif-Regular';  
+    color: #1b1b1b;
+}
+
+.story{
+    background-color: #d03958;
+    text-align: center;
+}
+.storyText p{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'PTSerif-Regular';
+    font-size: 14.5px;
+    margin-top: 15px;
+}
+.storyForm{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.story form{
+    border-radius: 5px;
+    border: 0px;
+}
+.story form button{
+    background-color: #e3d5b8;
+    color: #1b1b1b;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+    padding: 15px 50px 15px 50px;
+}
+
+.pricing{
+    text-align: center;
+    background-color: #e3d5b8;
+}
+.pricingBlock{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.pricing .title{
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pricing .title h2{
+    font-family: 'couture-bld';
+    color: #1b1b1b;
+    font-size: 40px;
+}
+.pricing .listTitle{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.listTitle h5{
+    font-family: 'PTSerif-Regular';
+    font-size: 15px;
+}
+.pricing .listPrice h3{
+    font-family: 'Montserrat-Bold';
+    color: #d03958;
+    font-size: 50px;
+}
+.pricing .list-group-item{
+    border: 0px;
+    font-size: 15px;
+    font-family: 'PTSerif-Regular'; 
+}
+.pricingBlock form{   
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    border: 0px;
+}
+.pricingBlock form button{
+    background-color: #e3d5b8;
+    color: #1b1b1b;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Montserrat-Regular';
+    font-size: 18px;
+}
+.pricingBlock form button:hover{
+    background-color: #d03958;
+    color: #ffffff;
+}
+
+
+.preFooter{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.testimonial, .gallery{
+    
+}
+.testimonial .title{
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    color: #1b1b1b;
+    text-align: center;
+}
+.testimonial .container{
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    border-radius: 5px;
+}
+.testimonial p{
+    font-family: 'PTSerif-Regular';
+    color: #1b1b1b;
+}
+.testimonial p span{
+    color: #d03958;
+}
+.testimomial .row .container .col-md-4:hover{
+    background-color: #e3d5b8;
+}
+
+.gallery .title{
+    font-family: 'Montserrat-Bold';
+    font-size: 50px;
+    color: #d03958;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    height: 120px;
+    margin: 0px;
+    background-color: #1b1b1b;
+}
+footer .container{
+    margin-top: 50px;
+}
+footer p{
+    color: #ffffff;
+    font-family: 'PTSerif-Regular';
+}
+footer span{
+    color: #d03958;
+}
+.navbar-brand{
+    font-family: 'QuiteChocolatey';
+    font-size: 60px;
+    color: #d03958;
+}
+.navbar-brand:hover{
+    color: #ffffff;
+}
