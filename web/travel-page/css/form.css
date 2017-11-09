@@ -1,0 +1,37 @@
+.jumbotron form
+{
+	width: 400px;
+	height: 450px;
+	color: #ffffff;
+	background-color: #d03958;
+	text-align: left;
+	border-radius: 5px;
+	border: 0px;
+	padding: 10px;	 
+}
+#formCaption
+{
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+	color: #ffffff;
+}
+.jumbotron .input-group .form-control:first-child
+{
+	width: 380px;
+	height: 50px;
+	border-radius: 5px;
+	border: 0px;
+	font-family: 'PTSerif-Regular';
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#accept
+{
+	background-color: #1b1b1b;
+	color: #ffffff;
+	font-family: 'Montserrat-Regular';
+	font-size: 20px;
+}
