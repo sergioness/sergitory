@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GeoQuizApp</string>
+    <string name="trueButton">True</string>
+    <string name="falseButton">False</string>
+    <string name="toastTrue">Correct! c:</string>
+    <string name="toastFalse">Wrong :c</string>
+    <string name="football">Liverpool FC home ground Anfield Road was built for Everton FC</string>
+    <string name="basketball">Adidas manufactures all the NBA uniforms.</string>
+    <string name="liecht">LIECHTENSTEIN HAS COMPETED IN THE MOST SUMMER OLYMPICS (16) WITHOUT WINNING ANY MEDAL.</string>
+    <string name="golf">THE AVERAGE GOLF BALL HAS 336 DIMPLES.</string>
+    <string name="olympics">AT THE FIRST MODERN OLYMPICS, WINNERS WERE AWARDED SILVER MEDALS.</string>
+    <string name="nextButton">Next</string>
+    <string name="prevButton">Previous</string>
+    <string name="cheat_button">Cheat!</string>
+    <string name="warning_text">Are you sure you want it to know?</string>
+    <string name="judgment_toast">Cheating is not good</string>
+    <string name="answerButton">Answer</string>
+</resources>
